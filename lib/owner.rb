@@ -44,7 +44,8 @@ class Owner
   
   def sell_pets
     pets = self.cats + self.dogs
-    self.pets.ea
+    pets.each do |pet|
+      
   end
   
   def self.all
