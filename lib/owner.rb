@@ -18,7 +18,8 @@ class Owner
     return "I am a #{species}."
   end
  
- 
+ def cats 
+   
  
  
  
