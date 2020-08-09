@@ -8,7 +8,7 @@ class Owner
     @name = name
   end 
   
-  def self.all
+  
   
   
   
