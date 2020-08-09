@@ -35,7 +35,7 @@ class Owner
   end
   
   def walk_dogs
-    Dog.mood
+    self.dogs.each  {|dog| dog.mood == "happy"}
   end
   
   def self.all
@@ -43,7 +43,7 @@ class Owner
   end
   
   def self.count
-    self.dogs.each  {|dog| dog.mood == "happy"}
+    @@all.count
   end
   
   def self.reset_all
