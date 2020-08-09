@@ -43,7 +43,7 @@ class Owner
   end
   
   def self.count
-    self.dogs.ea
+    self.dogs.each{|dog| dog.mood == "happy"}
   end
   
   def self.reset_all
