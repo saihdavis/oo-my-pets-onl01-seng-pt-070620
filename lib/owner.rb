@@ -43,7 +43,7 @@ class Owner
   end
   
   def self.count
-    @@all.count
+    self.dogs.ea
   end
   
   def self.reset_all
