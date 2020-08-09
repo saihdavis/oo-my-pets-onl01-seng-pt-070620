@@ -8,8 +8,8 @@ class Cat
     @owner = owner
   end
   
-  def mood 
+  
     @mood = "nervous"
-  end
+
   
 end
