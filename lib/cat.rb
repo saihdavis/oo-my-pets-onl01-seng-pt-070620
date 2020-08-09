@@ -7,4 +7,9 @@ class Cat
     @name = name
     @owner = owner
   end
+  
+  def mood 
+    
+  end
+  
 end
