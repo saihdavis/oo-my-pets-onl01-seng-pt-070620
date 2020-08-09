@@ -26,5 +26,6 @@ class Owner
     @@all.count
   end
   
+  def 
   
 end
