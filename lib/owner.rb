@@ -27,16 +27,8 @@ class Owner
  end
  
  def buy_cat
-   
+  Cat.new(name, self) 
  end
- 
- 
- 
- 
- 
- 
- 
- 
  
   
   def self.all
